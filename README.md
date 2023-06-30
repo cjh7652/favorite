@@ -71,7 +71,8 @@
  <h2>visual studio Custom</h2>
 <h3>사용법- 설정-설정-설정json열기</h3>
 <pre>
-{
+
+  {
    "당신이 필요했던 그것 html form" : {
    "prefix": "!!" ,
    "body": [
@@ -91,41 +92,48 @@
    "<meta name='Author-Date' content=''>",
    "<meta name='Copyright' content=''>",
    "",
-   // 접근성 텍스트(skip) 숨김
+   "<!-- 접근성 텍스트(skip) 숨김 -->",
    "<style>#skip{overflow: hidden; position:absolute; width:0; height:0; line-height:0; text-indent:-9999px;}</style>",
+   "",
    /* link + script */
-   // 폰트어썸
-   "<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>",
-   // 구글폰트 아이콘
+   "<!-- 폰트어썸 -->",
+   "<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css'>",
+   "<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>",
+   "",
+   "<!-- 구글폰트 아이콘 -->",
    "<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0' />",
-   // CSS 리셋
+   "",
+   "<!-- CSS 리셋 -->",
    "<link href='https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css'>",
-   // 제이쿼리 3.7 CDN
+   "",
+   "<!-- 제이쿼리 3.7 CDN -->",
    "<script src='https://code.jquery.com/jquery-3.7.0.min.js' crossorigin='anonymous'></script>",
    "",
-   // 로컬 CSS
+   "<!-- 로컬 CSS -->",
    "<link rel='stylesheet' href='./css/style.css'/>" ,
-   // 로컬 js
+   "",
+   "<!-- 로컬 js -->",
    "<script src='./js/script.js' defer></script>",
    // +@ 당신의 작업대
    "",
    "</head>",
    "<body>",
-   /* 시각장애인 웹 접근성을 위한 skip _ 지우지않아도 됩니다. */
+   "<!-- 시각장애인 웹 접근성을 위한 skip _ 지우지않아도 됩니다. -->",
+   "",
    "<ul id='skip'>",
    "   <li><a href='#header'>헤더 바로가기</a></li>",
    "   <li><a href='#nav'>메뉴 바로가기</a></li>",
    "   <li><a href='#content'>내용 바로가기</a></li>",
-   "</ul>", 
+   "</ul>",
    "",   
-   //공백을 위한 공간입니다.
+   "<!-- 공백을 위한 공간입니다. -->",
    "", 
    "",
    "</body>",
    "</html>"
     ],
     "description": "jeehyun html"
-       
+      
     }
- }
+  }
 </pre>
