@@ -1,0 +1,7 @@
+body{background: #ddd;}
+ul{list-style: none;}
+.box{width: 1000px; margin: 20px auto; background: #fff; padding: 20px}
+a{text-decoration: none; color: #333}
+a:hover{text-decoration: underline; color: #f74c4c}
+h2{text-align: center;}
+li{line-height: 200%;}
